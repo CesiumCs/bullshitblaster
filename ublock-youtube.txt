@@ -1,0 +1,4 @@
+! Members only videos
+www.youtube.com##ytd-rich-item-renderer:has(.ytd-badge-supported-renderer.style-scope.badge-style-type-members-only)
+! annoying "become a member" popup
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
