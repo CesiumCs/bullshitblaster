@@ -1,0 +1,44 @@
+/* hide guild tags */
+[class*="chipletContainerInner_"]:has([src*="/clan-badges/"]) { display: none; }
+
+/* if you have a lot of people blocked, you can enable this one to remove the date divider entirely
+   so you dont see like four in a row when only blocked people talk in a specific channel (mostly for NoBlockedMessages) */
+/* [class*="hasContent__908e2"]:not([class*="isUnread__908e2"]) { display: none; } */
+
+/* attempt to get rid of every instance of Quests in the entire app */
+/* hide that bullshit that shows up on the playing status of a user playing a game with a quest available */
+[class*="questsIcon_c9d15c"],
+[class*="container__4413f"],
+[class*="dot_c9d15c"] { display: none; }
+/* and the normal quest badge on profiles */
+[aria-label*="Completed a Quest"] { display: none; }
+/* and the advertisements in the Active Now part of your friends list */
+[class*="body__00943"]:has([class*="promotedTag__1d868"]) { display: none; }
+/* theres now a badge you can buy with "orbs" that shows off how much you love discords advertisements */
+[aria-label*="Collected the Orb Profile Badge"] { display: none; }
+
+/* stupid shop and nitro button nobody on earth has ever clicked */
+[class*="container_e45859"]:has([href*="/shop"]),
+[class*="container_e45859"]:has([href*="/store"]) { display: none; }
+
+/* get rid of the "Activity" thing at the top of user lists */
+[class*="membersGroup_c8ffbb"]:has([class*="toggleExpandIcon__095fe"]) { display: none; }
+
+/* useless buttons taking up space in the typing box, you can access literally all of this from emojis */
+[aria-label*="Send a gift"] { display: none; }
+[aria-label*="Open GIF picker"] { display: none; }
+[aria-label*="Open sticker picker"] { display: none; }
+[class*="channelAppLauncher_e6e74f"] { display: none; }
+[class*="buttons__74017"] { gap: 0 }
+
+/* remove the indicator for a reply to a message you have blocked
+   probably also hides it for "failed to load" messages idk? that 
+   part isnt tested i just think repliedTextPlaceholder is a really
+   generic seeming class that probably applies to more than blocked messages */
+/*[class*="repliedMessage_c19a55"]:has([class*="repliedTextPlaceholder_c19a55"]) { display: none; }*/
+
+/* server boost icon */
+[class*="guildIconContainer__85d16"] { display: none; }
+
+/* obnoxious paid reactions with flashy animations and colors */
+div:has(> [aria-label*="super reaction"]) { display: none; } 
