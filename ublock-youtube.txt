@@ -1,4 +1,5 @@
 ! Members only videos
 www.youtube.com##ytd-rich-item-renderer:has(.ytd-badge-supported-renderer.style-scope.badge-style-type-members-only)
+www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:has(.badge-shape-wiz--commerce.badge-shape-wiz)
 ! annoying "become a member" popup
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
+www.youtube.com###mealbar-promo-renderer
