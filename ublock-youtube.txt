@@ -1,5 +1,6 @@
-! Members only videos
-www.youtube.com##ytd-rich-item-renderer:has(.ytd-badge-supported-renderer.style-scope.badge-style-type-members-only)
-www.youtube.com##yt-lockup-view-model.lockup.ytd-item-section-renderer:has(.badge-shape-wiz--commerce.badge-shape-wiz)
+! Members only trash on homepage
+youtube.com##ytd-rich-item-renderer:has(badge-shape.yt-badge-shape--membership)
+! Members only trash on Channel Shorts page
+youtube.com##ytd-rich-item-renderer:has(.shortsLockupViewModelHostOutsideMetadataSubhead:has-text(Members only))
 ! annoying "become a member" popup
 www.youtube.com###mealbar-promo-renderer
