@@ -26,6 +26,7 @@
 
 /* useless buttons taking up space in the typing box, you can access literally all of this from emojis */
 [aria-label*="Give a Gift"] { display: none; }
+[aria-label*="Send a gift"] { display: none; }
 [aria-label*="Open GIF picker"] { display: none; }
 [aria-label*="Open sticker picker"] { display: none; }
 [class*="app-launcher-entrypoint"] { display: none; }
