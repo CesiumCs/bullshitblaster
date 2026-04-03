@@ -25,10 +25,10 @@
 [class*="membersGroup_c8ffbb"]:has([class*="toggleExpandIcon__095fe"]) { display: none; }
 
 /* useless buttons taking up space in the typing box, you can access literally all of this from emojis */
-[aria-label*="Send a gift"] { display: none; }
+[aria-label*="Give a Gift"] { display: none; }
 [aria-label*="Open GIF picker"] { display: none; }
 [aria-label*="Open sticker picker"] { display: none; }
-[class*="channelAppLauncher_e6e74f"] { display: none; }
+[class*="app-launcher-entrypoint"] { display: none; }
 [class*="buttons__74017"] { gap: 0 }
 
 /* remove the indicator for a reply to a message you have blocked
@@ -41,4 +41,4 @@
 [class*="guildIconContainer__85d16"] { display: none; }
 
 /* obnoxious paid reactions with flashy animations and colors */
-div:has(> [aria-label*="super reaction"]) { display: none; } 
+div:has(> [aria-label*="super reaction"]) { display: none; }
