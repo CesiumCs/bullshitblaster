@@ -21,6 +21,9 @@
 [class*="container_e45859"]:has([href*="/shop"]),
 [class*="container_e45859"]:has([href*="/store"]) { display: none; }
 
+/* "Server Boosts" bullshit that masquerades as a text channel when you're about to lose a boost status */
+li:has([aria-label*="Server Boosts"]) { display: none; }
+
 /* get rid of the "Activity" thing at the top of user lists */
 [class*="membersGroup_c8ffbb"]:has([class*="toggleExpandIcon__095fe"]) { display: none; }
 
