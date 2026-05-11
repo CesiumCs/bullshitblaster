@@ -16,6 +16,10 @@
 [class*="body__00943"]:has([class*="promotedTag__1d868"]) { display: none; }
 /* theres now a badge you can buy with "orbs" that shows off how much you love discords advertisements */
 [aria-label*="Collected the Orb Profile Badge"] { display: none; }
+/* the hydra sprouts a new ugly head in the friends list next to
+   the shop and nitro buttons which also get removed in the next few lines */
+[class*="container_e45859"]:has([href*="/quest-home"]) { display: none; }
+
 
 /* stupid shop and nitro button nobody on earth has ever clicked */
 [class*="container_e45859"]:has([href*="/shop"]),
